@@ -4,9 +4,35 @@
     <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pet Store Website</title>
 </head>
 <body>
-    
+  <h1>Inventory Tracker</h1>
+  <h2>Log a Product:</h2>
+  <form id="new-product">
+    <label for="new-type">Type: </label>
+    <input type="text" id="new-type">
+    <label for="new-price">Price: </label>
+    <input type="text" id="new-price">
+    <label for="new-quantity">Quantity: </label>
+    <input type="text" id="new-quantity">
+    <label for="new-brand">Brand: </label>
+    <input type="text" id="new-brand">
+    <button type="submit">Log Inventory</button>
+  </form>
+
+  <h2>Product information:</h2>
+  <div id="products">
+  </div>
+
+  <div id="product-details">
+    <h2>Product Details:</h2>
+    <ul>
+      <li>Type:</li>
+      <li>Price:</li>
+      <li>Quantity:</li>
+      <li>Brand:</li>
+    </ul>
+  </div>
 </body>
 </html>

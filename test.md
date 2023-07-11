@@ -8,5 +8,6 @@ Expected Output: Object { type: "biscuits", price: "$30", quantity: "12", brand:
 Description: Inventory();
 
 Test: "It should add the product to the inventory function"
-Code: 
+Code: const products = new Inventory();
+      
 Expected Output: 
